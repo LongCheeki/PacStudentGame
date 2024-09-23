@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 8871d6932ee907c44a41d0b92e2be416
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BackgroundMusicIntro: {fileID: 8300000, guid: e9e13920d66584f439f4e7e5ed4ab776, type: 3}
+  - BackgroundMusicGhostNormal: {fileID: 8300000, guid: 539664e262241d545b24bbe722047db5, type: 3}
+  - BackgroundMusicGhostDead: {fileID: 8300000, guid: 673961ffe957f6940848c1227ccffdc1, type: 3}
+  - BackGroundMusicGhostScared: {fileID: 8300000, guid: e9e13920d66584f439f4e7e5ed4ab776, type: 3}
+  - SoundEffectPacStudentNormalMoveSound: {fileID: 8300000, guid: 6f2053576d9c2b8478d0887e6d3b8f36, type: 3}
+  - SoundEffectPacStudentHitWallSound: {fileID: 8300000, guid: 4f9dc48e5950d1b479727d319bd9a624, type: 3}
+  - SoundEffectPacStudentEatPelletSound: {fileID: 8300000, guid: 09d7704fe44ab82498da4e23aaa121d7, type: 3}
+  - SoundEffectPacStudentDeadSound: {fileID: 8300000, guid: a42155cebace8c34da0929606d644798, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
