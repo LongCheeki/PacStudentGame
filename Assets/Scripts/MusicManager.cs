@@ -8,7 +8,7 @@ public class MusicManager : MonoBehaviour
     public AudioClip BackgroundMusicIntro;
     public AudioClip BackgroundMusicGhostNormal;
     public AudioClip BackgroundMusicGhostDead;
-    public AudioClip BackGroundMusicGhostScared;
+    public AudioClip BackgroundMusicGhostScared;
     public AudioClip SoundEffectPacStudentNormalMoveSound;
     public AudioClip SoundEffectPacStudentHitWallSound;
     public AudioClip SoundEffectPacStudentEatPelletSound;
@@ -44,7 +44,7 @@ public class MusicManager : MonoBehaviour
 
     public void PlayBackGroundMusicGhostScared()
     {
-        audioSource.clip = BackGroundMusicGhostScared;
+        audioSource.clip = BackgroundMusicGhostScared;
         audioSource.loop = true;
         audioSource.Play();
     }

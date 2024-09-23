@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 421599780}
   - component: {fileID: 421599779}
+  - component: {fileID: 421599781}
   m_Layer: 0
   m_Name: MusicManager
   m_TagString: Untagged
@@ -248,6 +249,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &421599781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421599778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8871d6932ee907c44a41d0b92e2be416, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackgroundMusicIntro: {fileID: 8300000, guid: a30e87402013e624a93838580e8a39f9, type: 3}
+  BackgroundMusicGhostNormal: {fileID: 8300000, guid: 539664e262241d545b24bbe722047db5, type: 3}
+  BackgroundMusicGhostDead: {fileID: 8300000, guid: 673961ffe957f6940848c1227ccffdc1, type: 3}
+  BackgroundMusicGhostScared: {fileID: 0}
+  SoundEffectPacStudentNormalMoveSound: {fileID: 8300000, guid: 6f2053576d9c2b8478d0887e6d3b8f36, type: 3}
+  SoundEffectPacStudentHitWallSound: {fileID: 8300000, guid: 4f9dc48e5950d1b479727d319bd9a624, type: 3}
+  SoundEffectPacStudentEatPelletSound: {fileID: 8300000, guid: 09d7704fe44ab82498da4e23aaa121d7, type: 3}
+  SoundEffectPacStudentDeadSound: {fileID: 8300000, guid: a42155cebace8c34da0929606d644798, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

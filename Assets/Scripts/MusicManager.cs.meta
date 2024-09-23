@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - BackgroundMusicIntro: {fileID: 8300000, guid: e9e13920d66584f439f4e7e5ed4ab776, type: 3}
+  - BackgroundMusicIntro: {fileID: 8300000, guid: a30e87402013e624a93838580e8a39f9, type: 3}
   - BackgroundMusicGhostNormal: {fileID: 8300000, guid: 539664e262241d545b24bbe722047db5, type: 3}
   - BackgroundMusicGhostDead: {fileID: 8300000, guid: 673961ffe957f6940848c1227ccffdc1, type: 3}
   - BackGroundMusicGhostScared: {fileID: 8300000, guid: e9e13920d66584f439f4e7e5ed4ab776, type: 3}
