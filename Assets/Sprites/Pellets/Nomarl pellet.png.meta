@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nomarl pellet_0: -8029740750192162057
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

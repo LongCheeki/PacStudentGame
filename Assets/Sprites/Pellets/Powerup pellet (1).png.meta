@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Powerup pellet (1)_0: 5394088092834552364
+      Powerup pellet (1)_1: -3259813245304875232
+      Powerup pellet (1)_2: 7364541804295515564
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

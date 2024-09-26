@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bonus score crystal_0: 423688082994604433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

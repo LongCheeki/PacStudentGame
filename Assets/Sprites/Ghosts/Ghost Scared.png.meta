@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost Scared_0: -1821804029978838042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
