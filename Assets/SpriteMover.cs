@@ -4,43 +4,37 @@ using UnityEngine;
 public class SpriteMover : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float rotationSpeed = 360f;
+    public float pinX;
+    public float pinY;
+    public bool isDeath = false;
+    public bool isScared = false;
+
     private Animator animator;
+
+    private int count = 0;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        animator.SetFloat("Speed", 5f);
+
+        animator.SetFloat("Vertical", pinY);
+        animator.SetFloat("Horizontal", pinX);
+        animator.SetBool("Death", isDeath);
     }
 
     void Update()
     {
- 
-        float moveX = Input.GetAxis("Horizontal");
-        float moveY = Input.GetAxis("Vertical");
-
-        Vector2 direction = new Vector2(moveX, moveY).normalized;
-
-        transform.Translate(direction * moveSpeed * Time.deltaTime);
-        if (direction.magnitude > 0)
+        if(isScared)
         {
-            animator.SetFloat("Speed", direction.magnitude);
+            count++;
+            if(count >= 100)
+            {
+                animator.SetTrigger("Scared");
+                count = 0;
+            }
         }
-        else
-        {
-            animator.SetFloat("Speed", 0);
-        }
-        //animator.SetFloat("Horizontal", moveX);
-        //animator.SetFloat("Vertical", moveY);
-
-        if (moveX != 0)
-        {
-            animator.SetFloat("Vertical", 0);
-            animator.SetFloat("Horizontal", moveX);
-        }
-        if (moveY != 0)
-        {
-            animator.SetFloat("Horizontal", 0);
-            animator.SetFloat("Vertical", moveY);
-        }
+       
     }
 }

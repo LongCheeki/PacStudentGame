@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Powerup pellet (1)
+  m_Name: PacStudent Left Walk (1)
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,11 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 5394088092834552364, guid: 1e09f331e08754f4e8c70d90a33e38ce, type: 3}
+      value: {fileID: -5281750090745207155, guid: 35b9dbb8405bdda47bbd6793c31a73c3, type: 3}
     - time: 0.083333336
-      value: {fileID: -3259813245304875232, guid: 1e09f331e08754f4e8c70d90a33e38ce, type: 3}
+      value: {fileID: 9118457084785952184, guid: 35b9dbb8405bdda47bbd6793c31a73c3, type: 3}
     - time: 0.16666667
-      value: {fileID: 7364541804295515564, guid: 1e09f331e08754f4e8c70d90a33e38ce, type: 3}
+      value: {fileID: 8728409220262068634, guid: 35b9dbb8405bdda47bbd6793c31a73c3, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,9 +48,9 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 5394088092834552364, guid: 1e09f331e08754f4e8c70d90a33e38ce, type: 3}
-    - {fileID: -3259813245304875232, guid: 1e09f331e08754f4e8c70d90a33e38ce, type: 3}
-    - {fileID: 7364541804295515564, guid: 1e09f331e08754f4e8c70d90a33e38ce, type: 3}
+    - {fileID: -5281750090745207155, guid: 35b9dbb8405bdda47bbd6793c31a73c3, type: 3}
+    - {fileID: 9118457084785952184, guid: 35b9dbb8405bdda47bbd6793c31a73c3, type: 3}
+    - {fileID: 8728409220262068634, guid: 35b9dbb8405bdda47bbd6793c31a73c3, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
